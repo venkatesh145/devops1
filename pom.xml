@@ -12,7 +12,14 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.8.RELEASE</version>
     </parent>
-
+    
+        <distributionManagement>
+            <repository> 
+                <id></id>
+                <url></url>
+            </repository> 
+        </distributionManagement>
+    
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
